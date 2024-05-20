@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctoral Candidate Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Welcome! I am a Doctoral Candidate at XYZ University, specializing in ABC field. My research focuses on DEF topics. I am passionate about teaching and aim to contribute to academia as an instructor and researcher.</p>
+    </section>
+
+    <section id="cv">
+        <h1>CV</h1>
+        <p>You can download my CV <a href="cv.pdf" download>here</a>.</p>
+    </section>
+
+    <section id="research">
+        <h1>Research</h1>
+        <p>My research involves GHI topics and has been published in various journals including JKL. Below are some of my recent publications:</p>
+        <ul>
+            <li>Publication 1 - <a href="#">Link to paper</a></li>
+            <li>Publication 2 - <a href="#">Link to paper</a></li>
+            <li>Publication 3 - <a href="#">Link to paper</a></li>
+        </ul>
+    </section>
+
+    <section id="teaching">
+        <h1>Teaching</h1>
+        <p>I have taught the following courses:</p>
+        <ul>
+            <li>Course 1: Course description and details.</li>
+            <li>Course 2: Course description and details.</li>
+            <li>Course 3: Course description and details.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Doctoral Candidate's Portfolio</p>
+    </footer>
+</body>
+</html>
