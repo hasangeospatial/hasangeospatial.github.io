@@ -59,6 +59,20 @@ section ul {
     margin-left: 1.5rem;
 }
 
+.profile-pic {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
 footer {
     text-align: center;
     padding: 1rem 0;
