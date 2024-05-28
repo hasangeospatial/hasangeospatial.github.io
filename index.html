@@ -924,23 +924,23 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="assets/php/send_email.php" method="post" class="form" data-form>
+          <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
 
             <div class="input-wrapper">
+              <input type="hidden" name="access_key" value="4a7775c5-dc1b-4c57-9717-4ba7d5c67675">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
               <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+             <div class="h-captcha" data-captcha="true"></div>
 
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
-
           </form>
-
+          <script src="https://web3forms.com/client/script.js" async defer></script>
         </section>
 
       </article>
